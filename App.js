@@ -23,6 +23,12 @@
 //   { key: 'r' },
 //   { key: 's' },
 //   { key: 't' },
+//   { key: 'u' },
+//   { key: 'v' },
+//   { key: 'w' },
+//   { key: 'x' },
+//   { key: 'y' },
+//   { key: 'z' },
 // ];
 //
 // const styles = StyleSheet.create({
@@ -65,24 +71,9 @@ import { View, SectionList, TouchableOpacity, Text, StyleSheet } from 'react-nat
 
 const datasource = [
   { data: [{ key: 'a' }, { key: 'e' }, { key: 'i' }, { key: 'o'} ], title: "Vowels" },
-  { data: [
-      { key: 'b' },
-      { key: 'c' },
-      { key: 'd' },
-      { key: 'e' },
-      { key: 'f' },
-      { key: 'g' },
-      { key: 'h' },
-      { key: 'j' },
-      { key: 'k' },
-      { key: 'l' },
-      { key: 'm' },
-      { key: 'n' },
-      { key: 'p' },
-      { key: 'q' },
-      { key: 'r' },
-      { key: 's' },
-      { key: 't' }], title: "Consonants" }
+  { data: [{ key: 'b' }, { key: 'c' }, { key: 'd' }, { key: 'e' }, { key: 'f' }, { key: 'g' }, { key: 'h' }, { key: 'j' }, { key: 'k' },
+      { key: 'l' }, { key: 'm' }, { key: 'n' }, { key: 'p' }, { key: 'q' }, { key: 'r' }, { key: 's' },
+      { key: 't' }, { key: 'u'}, { key: 'v' }, { key: 'w' }, { key: 'x' }, { key: 'y' }, { key: 'z' } ], title: "Consonants" }
 ];
 
 const styles = StyleSheet.create({
